@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background: #46529d;
+  color: #fff;
+}
+.container {
+  width: 60%;
+  margin: 10% auto;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 769px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.text-center {
+  align-items: center;
+}
+.ListItems {
+  background: #fff;
+  color: #46529d;
+}
+.ListItems p {
+  text-align: center;
+  padding: 10px 0px;
+}
+.ListItems span {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 20px;
+  border: 0.3px solid #ccc;
+}
+.ListItems span.title {
+  background-color: #2ebaee;
+  color: #fff;
+}
+.ListItems span.name,
+form input[type="text"] {
+  width: 60%;
+}
+.ListItems span.age,
+form input[type="number"] {
+  width: 30%;
+}
+.ListItems span.action,
+form input[type="submit"] {
+  width: 10%;
+}
+.ListItems span.icon {
+  color: #f00;
+  cursor: pointer;
+}
+form input {
+  padding: 10px;
+  border: transparent;
+  background: #ebebeb;
+  border: 0.3px solid #eee;
+  outline-color: #2ebaee;
+}
+form input[type="submit"] {
+  background: #2ebaee;
+  border: 0.3px solid #2ebaee;
+  color: #fff;
+  cursor: pointer;
+}
